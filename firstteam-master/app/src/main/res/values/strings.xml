@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">First Team</string>
+    <string name="splash_screen">Splash screen</string>
+    <string name="hollo_world">Hello world</string>
+    <string name="login">Login</string>
+    <string name="login_enter_data_info">Please enter your credentials  account info to login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="donot_having_account">Do\'t having an account</string>
+    <string name="toast_message">Toast message</string>
+    <string name="hi_there">Hi there</string>
+</resources>

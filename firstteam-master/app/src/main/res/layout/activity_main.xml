@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="user"
+            type="ps.gedco.firstteam.models.Users" />
+
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/d_20">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/d_20"
+            android:gravity="center"
+            android:text="@string/login"
+
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/sp_20"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="@dimen/d_200"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:text="@string/login_enter_data_info" />
+
+<!--        <TextView-->
+<!--            android:layout_width="@dimen/d_200"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+
+<!--            android:text="@{`Hi , `+ user.Username}" />-->
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            style="@style/edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d_40"
+            android:text="@={user.Username }"
+            android:hint="@string/username" />
+
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            style="@style/edittext_style"
+            android:layout_width="match_parent"
+            android:text="@{user.Password}"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            style="@style/default_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/resetPasswordBtn"
+            style="@style/flat_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d_40"
+            android:text="@string/reset_password" />
+
+        <Button
+            android:id="@+id/forgetPasswordBtn"
+            style="@style/flat_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donot_having_account" />
+    </LinearLayout>
+</layout>

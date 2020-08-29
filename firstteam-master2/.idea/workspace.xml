@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1f20693-fa81-4995-9942-193a9cb3551f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="firstteam-master2" />
+  </component>
+  <component name="ProjectId" id="1gGLK0keWvNRxbMX68ThJE4SVc0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1f20693-fa81-4995-9942-193a9cb3551f" name="Default Changelist" comment="" />
+      <created>1597735914912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597735914912</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597736235961">
+      <screen x="0" y="27" width="1920" height="998" />
+    </state>
+    <state x="418" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.998@0.27.1920.998" timestamp="1597736235961" />
+    <state x="743" y="283" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597777550281">
+      <screen x="0" y="27" width="1920" height="998" />
+    </state>
+    <state x="743" y="283" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.998@0.27.1920.998" timestamp="1597777550281" />
+    <state width="1874" height="216" key="GridCell.Tab.0.bottom" timestamp="1597826742339">
+      <screen x="0" y="27" width="1920" height="998" />
+    </state>
+    <state width="1874" height="216" key="GridCell.Tab.0.bottom/0.27.1920.998@0.27.1920.998" timestamp="1597826742339" />
+    <state width="1874" height="216" key="GridCell.Tab.0.center" timestamp="1597826742337">
+      <screen x="0" y="27" width="1920" height="998" />
+    </state>
+    <state width="1874" height="216" key="GridCell.Tab.0.center/0.27.1920.998@0.27.1920.998" timestamp="1597826742337" />
+    <state width="1874" height="216" key="GridCell.Tab.0.left" timestamp="1597826742336">
+      <screen x="0" y="27" width="1920" height="998" />
+    </state>
+    <state width="1874" height="216" key="GridCell.Tab.0.left/0.27.1920.998@0.27.1920.998" timestamp="1597826742336" />
+    <state width="1874" height="216" key="GridCell.Tab.0.right" timestamp="1597826742338">
+      <screen x="0" y="27" width="1920" height="998" />
+    </state>
+    <state width="1874" height="216" key="GridCell.Tab.0.right/0.27.1920.998@0.27.1920.998" timestamp="1597826742338" />
+    <state x="623" y="244" width="672" height="678" key="search.everywhere.popup" timestamp="1597736329812">
+      <screen x="0" y="27" width="1920" height="998" />
+    </state>
+    <state x="623" y="244" width="672" height="678" key="search.everywhere.popup/0.27.1920.998@0.27.1920.998" timestamp="1597736329812" />
+  </component>
+</project>

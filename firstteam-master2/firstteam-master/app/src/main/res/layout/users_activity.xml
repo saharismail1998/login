@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<data>
+    <variable
+        name="hl"
+        type="ps.gedco.firstteam.interfaces.CallBack" />
+    <variable
+        name="user"
+        type="ps.gedco.firstteam.models.Users" />
+</data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/d_10">
+
+        <EditText
+            style="@style/edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={user.Username}"
+            android:hint="@string/username" />
+
+        <EditText
+            style="@style/edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={user.Password}"
+            android:hint="@string/password" />
+
+        <Button
+            android:id="@+id/SaveBtn"
+            style="@style/default_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{(view)-> hl.onClick(view , user)}"
+            android:text="@string/Save" />
+
+
+        <Button
+            android:id="@+id/ResetBtn"
+            style="@style/default_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{(view)-> hl.onClick(view)}"
+            android:text="@string/Reset" />
+
+        <Button
+            android:id="@+id/Deletetn"
+            style="@style/default_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{(view)-> hl.onClick(view,user)}"
+            android:text="@string/Delete" />
+
+    </LinearLayout>
+</layout>
